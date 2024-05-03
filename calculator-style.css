@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    width: 260px;
+    background-color: black;
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 7px;
+    border-radius: 15px;
+}
+#display{
+    width:100%;
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 30px;
+    font-size: larger;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+}
+.btn:active{
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid white;
+}
